@@ -23,6 +23,9 @@ Route::group([
         'middleware' => 'web'
     ], function () {
         Route::get('/','HomeController@index')->name('home');
+        Route::get('bug', function (){
+            throw  new Exception('My bug');
+        });
     });
     /**
      **Authenticated route of application
