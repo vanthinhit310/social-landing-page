@@ -161,5 +161,6 @@
     <inspection_tool class="ThrowRawExceptionInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
     <inspection_tool class="TypeUnsafeComparisonInspection" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="UselessReturnInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="VueDuplicateTag" enabled="false" level="WARNING" enabled_by_default="false" />
   </profile>
 </component>
