@@ -42,5 +42,5 @@ trait ExceptionHandleTrait
             . 'at line: '.'<strong>' . $exception->getLine() . "</strong>\n"
             . 'at:  ' . Carbon::now()->format('d-m-Y H:i:s') . ' on ' . env('APP_ENV') . ' enviroment';
     }
-    
+
 }

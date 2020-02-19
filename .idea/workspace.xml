@@ -2,26 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6c99a06-f22e-47f6-9fd0-60dddb5718b7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Models/City.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/District.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Ward.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Traits/ExceptionHandleTrait.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/sentry.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/telegram.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_02_19_172010_create_cities_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_02_19_172020_create_districts_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_02_19_172127_create_wards_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/basic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/basic.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Exceptions/Handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Exceptions/Handler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/City.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/City.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/District.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/District.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Ward.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Ward.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Traits/ExceptionHandleTrait.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Traits/ExceptionHandleTrait.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_02_19_172010_create_cities_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_02_19_172020_create_districts_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_02_19_172127_create_wards_table.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -235,7 +223,7 @@
       <workItem from="1581940289183" duration="6545000" />
       <workItem from="1581992564393" duration="21000" />
       <workItem from="1582014721652" duration="169000" />
-      <workItem from="1582132049121" duration="2397000" />
+      <workItem from="1582132049121" duration="4392000" />
     </task>
     <servers />
   </component>
