@@ -22,6 +22,7 @@ Route::group([
     Route::group([
         'middleware' => 'web'
     ], function () {
+        //Route home page
         Route::get('/', 'HomeController@index')->name('home');
 
         //Route processing ajax request

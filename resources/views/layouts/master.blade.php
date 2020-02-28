@@ -10,6 +10,7 @@
     <meta name="author" content="">
     <link rel="icon" href="" type="image/png" sizes="128x128">
     <link rel="stylesheet" href="{{ asset('css/plugins/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/all.min.css') }}">
     <link rel="stylesheet" href="{{ asset('css/plugins/select2.min.css') }}">
     <link rel="stylesheet" href="{{ asset('css/plugins/select2-bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('css/common.css?version='.$version) }}">

@@ -1,0 +1,11 @@
+.select-wapper{
+    position: relative;
+    .spin-icon{
+        position: absolute;
+        top: 50%;
+        right: 40px;
+        z-index: 1;
+        transform: translateY(-50%);
+        opacity: .8;
+    }
+}
