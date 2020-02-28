@@ -9,8 +9,9 @@
     <meta name="keywords" content="">
     <meta name="author" content="">
     <link rel="icon" href="" type="image/png" sizes="128x128">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="{{ asset('css/plugins/chosen.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/plugins/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/plugins/select2.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/plugins/select2-bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('css/common.css?version='.$version) }}">
     <link rel="stylesheet" href="{{ asset('css/app.css?version='.$version) }}">
     <title>
@@ -31,11 +32,12 @@
         @yield('content')
     </div>
     <!-- Scripts -->
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"></script>
-    <script src="{{ asset('js/plugins/chosen.jquery.js') }}" async></script>
+    <script src="{{ asset('js/plugins/jquery.min.js') }}"></script>
+    <script src="{{ asset('js/plugins/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('js/plugins/select2.min.js') }}" async></script>
     <script src="{{ asset('js/app.js?version='.$version) }}"></script>
     <script src="{{ asset('js/common.js?version='.$version) }}"></script>
+    <script src="{{ asset('js/function.js?version='.$version) }}"></script>
     @stack('script')
 </body>
 </html>

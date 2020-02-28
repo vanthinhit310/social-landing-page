@@ -22,9 +22,15 @@ Route::group([
     Route::group([
         'middleware' => 'web'
     ], function () {
-        Route::get('/','HomeController@index')->name('home');
-        Route::get('bug', function (){
-            throw  new Exception('My bug');
+        Route::get('/', 'HomeController@index')->name('home');
+
+        //Route processing ajax request
+        Route::group([
+            'prefix' => 'ajax',
+            'as' => 'ajax.'
+        ], function ($routes) {
+            $routes->get('districts', 'ExtraController@getDistricts')->name('district');
+            $routes->get('wards', 'ExtraController@getWards')->name('ward');
         });
     });
     /**

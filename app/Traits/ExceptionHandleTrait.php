@@ -36,7 +36,7 @@ trait ExceptionHandleTrait
      */
     protected function getTemplateMessageTelegram($exception)
     {
-        return  env('APP_NAME') .' has an error with message: '
+        return  config('app.name') .' has an error with message: '
             . '<strong>' . $exception->getMessage() . "</strong>\n"
             . 'on file: '.'<strong>' . $exception->getFile() . "</strong>\n"
             . 'at line: '.'<strong>' . $exception->getLine() . "</strong>\n"

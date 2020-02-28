@@ -11,20 +11,21 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-4">
-                    <select data-placeholder="Choose a country..." class="chosen-select" name="city" class="chosen-select">
+                    <select class="select" style="width: 50%" name="city">
+                        <option></option>
                         @foreach($cities as $row)
                             <option value="{{ @$row->matp }}"> {{ @$row->name }} </option>
                         @endforeach
                     </select>
                 </div>
                 <div class="col-sm-4">
-                    <select name="city" class="form-control">
-                        <option value=""> -- Select One --</option>
+                    <select name="district" class="form-control">
+                        <option></option>
                     </select>
                 </div>
                 <div class="col-sm-4">
-                    <select name="city" class="form-control">
-                        <option value=""> -- Select One --</option>
+                    <select name="ward" class="form-control">
+                        <option></option>
                     </select>
                 </div>
             </div>
@@ -32,5 +33,8 @@
     </section>
 @stop
 @push('script')
-
+    <script>
+        var get_district_url = '{{ route('app.ajax.district') }}';
+        var get_ward_url = '{{ route('app.ajax.ward') }}';
+    </script>
 @endpush
